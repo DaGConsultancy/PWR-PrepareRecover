@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prepare & Recover</title>
+<style>
+
+@font-face {
+    font-family: "MainFont";
+    src: url("DINPro-Bold_13934.ttf");
+}
+
+@font-face {
+    font-family: "MainFont-slim";
+    src: url("dinpro.otf");
+}
+
+body{
+    overflow-x: hidden;
+}
+
+button{
+    border: none;
+}
+
+@media (max-width: 1000px) {
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #38a6a7;
+    padding: 50px;
+    text-wrap: nowrap;
+    font-family: "MainFont";
+    height: 100vh;
+}
+
+.desktop-img{
+    display: none;
+}
+
+.main-content {
+    display: flex;
+    margin-left: 51px;
+    margin-bottom: 140px;
+    margin-top: 250px;
+}
+
+.product-tagline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg);
+    font-size: 32px;
+    margin-left: -480px;
+    margin-top: 9px;
+}
+
+.product-name{
+    transform: rotate(90deg);
+    font-size: 64px;
+    letter-spacing: -8px;
+    line-height: 0.78;
+    color: white;
+    font-weight: bolder;
+}
+
+.product-tagline img{
+    transform: rotate(-90deg);
+    margin-left: 93px;
+    height: 250px;
+    width: auto;
+}
+
+.features {
+    font-family: "MainFont-slim";
+    font-size: 13px;
+    margin-top: 60px;
+    list-style: none;
+}
+
+.features li::before {
+content: "✓";
+margin-right: 10px;
+color: #FFFFFF;
+}
+}
+
+@media (min-width: 1001px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #38a6a7;
+        padding: 50px;
+        text-wrap: nowrap;
+        font-family: "MainFont";
+    }
+
+    .mobile-img{
+        display: none;
+    }
+
+    .desktop-img{
+        width: 267px;
+        height: 470px;
+        margin-top: 49px;
+    }
+    
+    .main-content {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: -80px;
+        justify-content: center;
+    }
+    
+    .product-tagline{
+        font-size: 40px;
+        margin-bottom: -145px;
+        margin-left: 10px;
+    }
+    
+    .product-name{
+        font-size: 70px;
+        letter-spacing: 2px;
+        line-height: 0.78;
+        color: white;
+    }
+    
+    .features {
+        font-size: 25px;
+        margin-top: 60px;
+        list-style: none;
+    }
+    
+    .features li::before {
+    content: "✓";
+    margin-right: 10px;
+    color: #FFFFFF;
+    }
+
+    .banner-holder{
+        height: 500px;
+    }
+}
+
+</style>
+</head>
+<body>
+    <div class="banner-holder" style="display: flex;">
+        <img class="desktop-img" src="image2.png"/> 
+        <div class="main-content">
+            <div class="product-name">
+                <h1>PREPARE&<br> RECOVER</h1>
+            </div>
+            <div class="product-tagline">
+                <h2>FAST RECOVERY</h2>
+                <img class="mobile-img" src="image2.png"/>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <ul class="features">
+            <li>Releases Tension From Tendons</li>
+            <li>Enables Greater Rage Of Motion</li>
+            <li>Release/Reduce Pain</li>
+            <li>Promotes Faster Recovery</li>
+        </ul>   
+    </div>
+
+    <button onclick="window.location.href = 'https://thepwrteam.com/products/prepare-recover'"style="width: 200px;height: 50px; font-family: 'MainFont'; outline: 0px; margin-bottom: 30px;">BUY NOW</button>
+    <img src="logo.avif"/>
+
+</body>
+</html>
